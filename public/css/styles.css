@@ -4,3 +4,93 @@
 *:after {
   box-sizing: border-box;
 }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  display: flex;
+  background-color: aqua;
+  padding: 1.5rem 0;
+}
+
+#tools a{
+  align-items: flex-end;
+  text-decoration: none;
+}
+
+.siteName a {
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 0 6rem 0 0;
+}
+
+.tools a {
+  align-self: flex-end;
+  text-decoration: none;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  padding: .1rem;
+}
+
+nav ul {
+  display: table;
+  table-layout: fixed;
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+}
+
+nav ul li {
+  display: table-cell;
+}
+
+/*********BODY*************/
+
+.welcome img {
+  max-width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.reviews ul {
+  padding: 20px;
+}
+.reviews ul li {
+  padding: .3rem;
+}
+
+  /* background-image: url('../images/site/checkerboard.jpg'); */
+.upgrades {
+  display: grid;
+}
+
+.upgrades ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style-type: none;
+  gap: 10px;
+  padding: 0;
+  text-align: center;
+}
+
+.upgrades article{
+  background-color: aqua;
+  height: 80px;
+  display: flex;
+  border: 1px solid black;
+}
+
+.upgrades ul li article img{
+  display: block;
+  margin: auto;
+  width: 30%;
+}
+/***********/
+footer {
+  text-align: center;
+}
