@@ -105,4 +105,20 @@ footer {
     margin: 1.5rem auto;
     border: 4px aqua solid;
   }
+  main {
+    display: grid;
+    grid-template-areas: 
+    "welcome welcome"
+    "upgrades reviews"
+    "footer footer";
+  }
+  .welcome {
+    grid-area: welcome;
+  }
+  .upgrades {
+    grid-area: upgrades;
+  }
+  .reviews {
+    grid-area: reviews;
+  }
 }
