@@ -64,7 +64,6 @@ nav ul li {
   padding: .3rem;
 }
 
-  /* background-image: url('../images/site/checkerboard.jpg'); */
 .upgrades {
   display: grid;
 }
@@ -93,4 +92,17 @@ nav ul li {
 /***********/
 footer {
   text-align: center;
+}
+
+@media only screen and (min-width: 480px) {
+  html {
+    /* background-color: lightcoral; */
+    background-image: url('../images/site/small_check.jpg');
+  }
+  div#wrapper {
+    background-color: white;
+    max-width: 80%;
+    margin: 1.5rem auto;
+    border: 4px aqua solid;
+  }
 }
